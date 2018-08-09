@@ -44,7 +44,7 @@ describe('Arrays', function() {
     it('appends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged', function() {
       expect(appendKitten("Broom")).toEqual(["Milo", "Otis", "Garfield", "Broom"])
 
-      expect(window.kittens).toEqual(["Milo", "Otis", "Garfield", "Broom"])
+      expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
     })
   })
 
@@ -52,7 +52,7 @@ describe('Arrays', function() {
     it('prepends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged', function() {
       expect(prependKitten("Arnold")).toEqual(["Arnold", "Milo", "Otis", "Garfield"])
 
-      expect(window.kittens).toEqual(["Arnold","Milo", "Otis", "Garfield"])
+      expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
     })
   })
 
