@@ -2,8 +2,5 @@
 var kittens = ["Milo", "Otis", "Garfield"]
 
 function destructivelyAppendKitten(name) {
-  return window.kittens(["Ralph", kittens...])
-}
-function destructivelyPrependKitten(name) {
-  return window.kittens([kittens..., "Bob"])
+  return kittens.push("Ralph")
 }
